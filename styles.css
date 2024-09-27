@@ -1,5 +1,29 @@
-body {
+* {
   margin: 0;
   text-align: center;
   font-family: Moderustic, sans-serif;
+  color: whitesmoke;
+}
+
+body {
+  background: linear-gradient(#381c2a, #3c3b5f, #f06553, #fff474);
+}
+
+#hero-section {
+  background-image: url("assets/st\ -pete.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.hero-text {
+  background: rgba(157, 157, 157, 0.5);
+  text-shadow: 0 0 2px black;
 }
