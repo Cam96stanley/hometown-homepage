@@ -27,3 +27,30 @@ h1 {
   background: rgba(157, 157, 157, 0.5);
   text-shadow: 0 0 2px black;
 }
+
+h3 {
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+#activity-section {
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.activity-item {
+  width: 250px;
+}
+
+.item-title {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.activity-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
